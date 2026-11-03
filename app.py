@@ -203,6 +203,12 @@ def convert_to_wav(input_path, output_path):
 def home():
     return send_from_directory("templates", "index.html")
 
+@app.route("/googlea062e23628e9c76a.html")
+def google_verification():
+    return send_from_directory(
+        app.root_path,
+        "googlea062e23628e9c76a.html"
+    )
 
 @app.route("/api/ask", methods=["POST"])
 def ask():
