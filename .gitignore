@@ -1,0 +1,72 @@
+
+# ==============================
+# Environment variables and secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Python virtual environments
+# ==============================
+venv/
+.venv/
+env/
+ENV/
+
+# ==============================
+# Python cache files
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ==============================
+# Flask
+# ==============================
+instance/
+.webassets-cache
+
+# ==============================
+# Audio files and temporary uploads
+# ==============================
+*.wav
+*.mp3
+*.webm
+uploads/*
+!uploads/.gitkeep
+static/audio/*
+!static/audio/.gitkeep
+
+# ==============================
+# Logs
+# ==============================
+*.log
+
+# ==============================
+# IDE and editor files
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# Operating system files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Testing and coverage
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Build artifacts
+# ==============================
+build/
+dist/
+*.egg-info/

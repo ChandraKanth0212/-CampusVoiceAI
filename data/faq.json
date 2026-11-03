@@ -1,0 +1,73 @@
+
+[
+  {
+    "question": "What courses are available?",
+    "keywords": ["courses", "branches", "departments"],
+    "answer": "Please refer to the official college admissions brochure for the current list of courses.",
+    "responses": {
+      "te-IN": "ప్రస్తుతం అందుబాటులో ఉన్న కోర్సుల కోసం అధికారిక కళాశాల అడ్మిషన్స్ బ్రోచర్‌ను చూడండి.",
+      "hi-IN": "उपलब्ध पाठ्यक्रमों की वर्तमान सूची के लिए आधिकारिक कॉलेज प्रवेश पुस्तिका देखें।",
+      "tenglish": "Available courses kosam official college admissions brochure ni refer cheyyandi."
+    }
+  },
+  {
+    "question": "Where can I find examination notifications?",
+    "keywords": ["exam", "examination", "notifications", "timetable"],
+    "answer": "You can find examination notifications through the official college examination cell.",
+    "responses": {
+      "te-IN": "పరీక్షల నోటిఫికేషన్లను అధికారిక కళాశాల పరీక్షల విభాగంలో చూడవచ్చు.",
+      "hi-IN": "परीक्षा अधिसूचनाएं आधिकारिक कॉलेज परीक्षा प्रकोष्ठ से प्राप्त कर सकते हैं।",
+      "tenglish": "Exam notifications official college examination cell lo dorukutayi."
+    }
+  },
+  {
+    "question": "How can I contact the college?",
+    "keywords": ["contact", "phone", "email", "address"],
+    "answer": "Please visit the official college website for verified contact information.",
+    "responses": {
+      "te-IN": "ధృవీకరించిన సంప్రదింపు వివరాల కోసం అధికారిక కళాశాల వెబ్‌సైట్‌ను సందర్శించండి.",
+      "hi-IN": "सत्यापित संपर्क जानकारी के लिए आधिकारिक कॉलेज वेबसाइट देखें।",
+      "tenglish": "Verified contact information kosam official college website ni visit cheyyandi."
+    }
+  },
+  {
+    "question": "Tell me about campus facilities.",
+    "keywords": ["campus", "facilities", "library", "hostel", "sports"],
+    "answer": "Campus facilities include the library, student support services, classrooms, and common areas. Please contact the college office for the latest availability.",
+    "responses": {
+      "te-IN": "క్యాంపస్‌లో లైబ్రరీ, విద్యార్థి సహాయ సేవలు, తరగతి గదులు మరియు సాధారణ ప్రదేశాలు ఉన్నాయి. తాజా సమాచారం కోసం కళాశాల కార్యాలయాన్ని సంప్రదించండి.",
+      "hi-IN": "कैंपस में पुस्तकालय, छात्र सहायता सेवाएं, कक्षाएं और सामान्य क्षेत्र हैं। नवीनतम जानकारी के लिए कॉलेज कार्यालय से संपर्क करें।",
+      "tenglish": "Campus lo library, student support services, classrooms mariyu common areas unnayi. Latest availability kosam college office ni contact cheyyandi."
+    }
+  },
+  {
+    "question": "What are the library timings?",
+    "keywords": ["library", "timings", "hours"],
+    "answer": "Please contact the college administration for the current library timings.",
+    "responses": {
+      "te-IN": "ప్రస్తుత లైబ్రరీ సమయాల కోసం కళాశాల పరిపాలనను సంప్రదించండి.",
+      "hi-IN": "पुस्तकालय के वर्तमान समय के लिए कॉलेज प्रशासन से संपर्क करें।",
+      "tenglish": "Library timings kosam college administration ni contact cheyyandi."
+    }
+  },
+  {
+    "question": "When is the fee payment deadline?",
+    "keywords": ["fee", "fees", "payment", "deadline", "last", "date"],
+    "answer": "Please check the official college notice or fee portal for the current payment deadline.",
+    "responses": {
+      "te-IN": "ప్రస్తుత ఫీజు చెల్లింపు చివరి తేదీ కోసం అధికారిక కళాశాల నోటీసు లేదా ఫీజు పోర్టల్‌ను చూడండి.",
+      "hi-IN": "वर्तमान शुल्क भुगतान की अंतिम तिथि के लिए आधिकारिक कॉलेज सूचना या शुल्क पोर्टल देखें।",
+      "tenglish": "Fee payment last date kosam official college notice leda fee portal ni check cheyyandi."
+    }
+  },
+  {
+    "question": "What attendance percentage is required?",
+    "keywords": ["attendance", "percentage", "required"],
+    "answer": "Please confirm the required attendance percentage with your college academic office.",
+    "responses": {
+      "te-IN": "అవసరమైన హాజరు శాతం కోసం మీ కళాశాల అకడమిక్ కార్యాలయాన్ని సంప్రదించండి.",
+      "hi-IN": "आवश्यक उपस्थिति प्रतिशत के लिए कॉलेज के शैक्षणिक कार्यालय से पुष्टि करें।",
+      "tenglish": "Required attendance percentage kosam college academic office tho confirm cheyyandi."
+    }
+  }
+]

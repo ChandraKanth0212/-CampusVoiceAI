@@ -1,0 +1,167 @@
+[
+  {
+    "id": "programs",
+    "source_type": "example_institution",
+    "terms": ["course", "courses", "branch", "branches", "department", "cse", "computer science", "it", "information technology", "ece", "electronic", "eee", "electrical", "mechanical", "civil", "ai", "machine learning", "data science", "కోర్సు", "విభాగాలు", "पाठ्यक्रम"],
+    "responses": {
+      "en-IN": "For this fictional example college, the typical programs are CSE, IT, ECE, EEE, Mechanical, Civil, AI and Machine Learning, and Data Science. This is an example profile, not verified information about a real college. Check the official admissions brochure for the actual list.",
+      "te-IN": "ఈ కల్పిత ఉదాహరణ కళాశాలలో సాధారణంగా CSE, IT, ECE, EEE, మెకానికల్, సివిల్, AI అండ్ మెషిన్ లెర్నింగ్, డేటా సైన్స్ కోర్సులు ఉంటాయని భావించవచ్చు. ఇది నిజమైన కళాశాలకు ధృవీకరించిన సమాచారం కాదు. అసలు కోర్సుల కోసం అధికారిక అడ్మిషన్స్ బ్రోచర్ చూడండి.",
+      "hi-IN": "इस काल्पनिक उदाहरण कॉलेज में सामान्यतः CSE, IT, ECE, EEE, मैकेनिकल, सिविल, AI और मशीन लर्निंग तथा डेटा साइंस जैसे कार्यक्रम माने गए हैं। यह किसी वास्तविक कॉलेज की सत्यापित जानकारी नहीं है। वास्तविक सूची के लिए आधिकारिक प्रवेश पुस्तिका देखें।",
+      "tenglish": "Ee fictional example college lo typical ga CSE, IT, ECE, EEE, Mechanical, Civil, AI and Machine Learning, Data Science programs unnayi ani assume chestunnam. Idi real college ki verified information kaadu; official admissions brochure check cheyyandi."
+    }
+  },
+  {
+    "id": "attendance",
+    "source_type": "typical_college_guidance",
+    "terms": ["attendance", "attendence", "present", "eligibility", "shortage", "low attendance", "thakkuva", "హాజరు", "उपस्थिति", "कम है"],
+    "responses": {
+      "en-IN": "Attendance eligibility varies by institution. Check your handbook and academic office before assuming a percentage. If your attendance is low, speak to your class advisor early, document any approved absence, and ask about the official shortage or condonation process.",
+      "te-IN": "హాజరు అర్హత కళాశాల నిబంధనలపై ఆధారపడి ఉంటుంది. మీ హ్యాండ్‌బుక్ మరియు అకడమిక్ కార్యాలయాన్ని సంప్రదించండి. హాజరు తక్కువగా ఉంటే క్లాస్ అడ్వైజర్‌ను త్వరగా కలసి, అధికారిక షార్టేజ్ లేదా కండొనేషన్ ప్రక్రియ గురించి అడగండి.",
+      "hi-IN": "उपस्थिति की पात्रता कॉलेज के नियमों पर निर्भर करती है। हैंडबुक और अकादमिक कार्यालय से पुष्टि करें। उपस्थिति कम है तो क्लास एडवाइजर से जल्दी मिलें और आधिकारिक कमी या छूट की प्रक्रिया पूछें।",
+      "tenglish": "Attendance eligibility college rules meeda depend avtundi. Handbook and academic office tho confirm cheyyandi. Attendance thakkuva unte class advisor ni early ga kalisi shortage or condonation process adugandi."
+    }
+  },
+  {
+    "id": "examinations",
+    "source_type": "typical_college_guidance",
+    "terms": ["exam", "exams", "examination", "internal", "semester", "mid", "timetable", "notification", "revaluation", "backlog", "arrear", "పరీక్ష", "परीक्षा", "backlog", "బ్యాక్‌లాగ్"],
+    "responses": {
+      "en-IN": "For internal and semester examinations, follow notices from the examination cell, department, and student portal. Prepare a subject-wise revision plan, confirm eligibility and hall-ticket requirements, and contact the exam cell for dates, backlogs, revaluation, or supplementary rules. Exact dates and rules require official notices.",
+      "te-IN": "ఇంటర్నల్ మరియు సెమిస్టర్ పరీక్షల కోసం పరీక్షల విభాగం, డిపార్ట్‌మెంట్ మరియు స్టూడెంట్ పోర్టల్ నోటీసులను చూడండి. సబ్జెక్ట్ వారీగా రివిజన్ ప్లాన్ చేసుకోండి. తేదీలు, బ్యాక్‌లాగ్స్, రీవాల్యుయేషన్ లేదా హాల్ టికెట్ నియమాలకు అధికారిక నోటీసును మాత్రమే నమ్మండి.",
+      "hi-IN": "आंतरिक और सेमेस्टर परीक्षाओं के लिए परीक्षा प्रकोष्ठ, विभाग और छात्र पोर्टल की सूचनाएं देखें। विषयवार तैयारी योजना बनाएं। तारीख, बैकलॉग, पुनर्मूल्यांकन और हॉल टिकट के नियमों के लिए आधिकारिक सूचना ही मानें।",
+      "tenglish": "Internal and semester exams kosam exam cell, department, student portal notices follow cheyyandi. Subject-wise revision plan prepare cheyyandi. Dates, backlogs, revaluation and hall-ticket rules official notice nunchi matrame confirm cheyyandi."
+    }
+  },
+  {
+    "id": "assignments_practicals",
+    "source_type": "general_engineering_guidance",
+    "terms": ["assignment", "lab", "practical", "record", "viva", "submission", "project work", "అసైన్‌మెంట్", "प्रैक्टिकल"],
+    "responses": {
+      "en-IN": "Read the rubric first, break the work into small tasks, cite sources, test practical work, and keep a backup of your record and code. Confirm submission format and practical or viva requirements with the subject faculty because they differ by course.",
+      "te-IN": "ముందుగా రుబ్రిక్ చదివి పనిని చిన్న దశలుగా విభజించండి. సోర్సులను పేర్కొని, ల్యాబ్ పనిని టెస్ట్ చేసి, రికార్డ్ మరియు కోడ్ బ్యాకప్ ఉంచండి. సబ్మిషన్ ఫార్మాట్ మరియు వైవా అవసరాలను ఫ్యాకల్టీతో నిర్ధారించండి.",
+      "hi-IN": "पहले रूब्रिक पढ़ें, काम को छोटे चरणों में बांटें, स्रोत लिखें, प्रैक्टिकल काम जांचें और रिकॉर्ड व कोड का बैकअप रखें। जमा करने का प्रारूप और वाइवा की जरूरत फैकल्टी से पूछें।",
+      "tenglish": "Munduga rubric chadivi work ni small tasks ga divide cheyyandi. Sources cite chesi, practical work test chesi, record and code backup pettukondi. Submission format and viva requirements faculty tho confirm cheyyandi."
+    }
+  },
+  {
+    "id": "admissions",
+    "source_type": "typical_college_guidance",
+    "terms": ["admission", "admissions", "eligibility", "join", "application", "counselling", "intermediate", "diploma", "ప్రవేశం", "प्रवेश"],
+    "responses": {
+      "en-IN": "Admission eligibility, seats, documents, and counselling rules vary by institution and admission route. Check the current official brochure or admissions office; do not rely on an old percentage, deadline, or document list.",
+      "te-IN": "అడ్మిషన్ అర్హత, సీట్లు, డాక్యుమెంట్లు మరియు కౌన్సెలింగ్ నియమాలు కళాశాల మరియు అడ్మిషన్ మార్గాన్ని బట్టి మారుతాయి. ప్రస్తుత అధికారిక బ్రోచర్ లేదా అడ్మిషన్స్ కార్యాలయాన్ని సంప్రదించండి.",
+      "hi-IN": "प्रवेश पात्रता, सीटें, दस्तावेज और काउंसलिंग नियम कॉलेज और प्रवेश मार्ग के अनुसार बदलते हैं। वर्तमान आधिकारिक पुस्तिका या प्रवेश कार्यालय से पुष्टि करें।",
+      "tenglish": "Admission eligibility, seats, documents and counselling rules college and admission route batti change avtayi. Current official brochure or admissions office tho confirm cheyyandi."
+    }
+  },
+  {
+    "id": "fees_scholarships",
+    "source_type": "institution_specific_referral",
+    "terms": ["fee", "fees", "payment", "tuition", "scholarship", "financial aid", "installment", "deadline", "ఫీజు", "స్కాలర్‌షిప్", "छात्रवृत्ति", "शुल्क"],
+    "responses": {
+      "en-IN": "Exact fees, payment deadlines, scholarships, and financial-assistance eligibility are institution-specific. Check the official fee portal, scholarship cell, and current notice. Keep receipts and ask the office about installment or renewal procedures.",
+      "te-IN": "ఖచ్చితమైన ఫీజులు, చెల్లింపు చివరి తేదీలు, స్కాలర్‌షిప్‌లు మరియు ఆర్థిక సహాయం కళాశాల ఆధారితమైనవి. అధికారిక ఫీజు పోర్టల్, స్కాలర్‌షిప్ సెల్ మరియు తాజా నోటీసును చూడండి. రసీదులు భద్రపరచండి.",
+      "hi-IN": "फीस, भुगतान की अंतिम तारीख, छात्रवृत्ति और आर्थिक सहायता कॉलेज-विशिष्ट हैं। आधिकारिक फीस पोर्टल, छात्रवृत्ति प्रकोष्ठ और नवीनतम सूचना देखें। रसीदें सुरक्षित रखें।",
+      "tenglish": "Exact fees, payment deadlines, scholarships and financial aid college-specific. Official fee portal, scholarship cell and latest notice check cheyyandi. Receipts safe ga pettukondi."
+    }
+  },
+  {
+    "id": "placements_careers",
+    "source_type": "general_engineering_guidance",
+    "terms": ["placement", "placements", "recruitment", "job", "career", "interview", "aptitude", "resume", "cv", "recruiter", "ప్లేస్‌మెంట్", "करियर"],
+    "responses": {
+      "en-IN": "For placements, build fundamentals in one programming language, practise data structures and aptitude, complete two or three explainable projects, improve your resume, and do mock interviews. Use the placement cell for the actual eligibility rules and company schedule.",
+      "te-IN": "ప్లేస్‌మెంట్స్ కోసం ఒక ప్రోగ్రామింగ్ భాషలో బేసిక్స్, డేటా స్ట్రక్చర్స్ మరియు ఆప్టిట్యూడ్ ప్రాక్టీస్ చేయండి. వివరించగల 2–3 ప్రాజెక్టులు, మంచి రెజ్యూమ్ మరియు మాక్ ఇంటర్వ్యూలు సిద్ధం చేసుకోండి. కంపెనీ షెడ్యూల్ కోసం ప్లేస్‌మెంట్ సెల్‌ను సంప్రదించండి.",
+      "hi-IN": "प्लेसमेंट के लिए एक प्रोग्रामिंग भाषा की नींव, डेटा स्ट्रक्चर और एप्टीट्यूड का अभ्यास करें। 2–3 अच्छे प्रोजेक्ट, बेहतर रिज्यूमे और मॉक इंटरव्यू तैयार करें। कंपनी शेड्यूल के लिए प्लेसमेंट सेल से पूछें।",
+      "tenglish": "Placements kosam oka programming language fundamentals, data structures and aptitude practice cheyyandi. Explain cheyyagalige 2–3 projects, clean resume and mock interviews prepare cheyyandi. Company schedule placement cell daggara confirm cheyyandi."
+    }
+  },
+  {
+    "id": "internships_projects_research",
+    "source_type": "general_engineering_guidance",
+    "terms": ["internship", "intern", "project", "projects", "research", "paper", "publication", "github", "portfolio", "ప్రాజెక్ట్", "इंटर्नशिप", "शोध"],
+    "responses": {
+      "en-IN": "Start with a small project that solves a clear problem, publish the code or demo responsibly, and document your contribution. For internships or research, use faculty guidance, verified company or lab pages, a focused resume, and a short message showing relevant skills. Never pay an unverified recruiter.",
+      "te-IN": "స్పష్టమైన సమస్యను పరిష్కరించే చిన్న ప్రాజెక్ట్‌తో ప్రారంభించండి. కోడ్ లేదా డెమోను బాధ్యతగా డాక్యుమెంట్ చేయండి. ఇంటర్న్‌షిప్ లేదా రీసెర్చ్ కోసం ఫ్యాకల్టీ గైడెన్స్, అధికారిక కంపెనీ లేదా ల్యాబ్ పేజీలు మరియు ఫోకస్‌డ్ రెజ్యూమ్ ఉపయోగించండి. ధృవీకరించని రిక్రూటర్‌కు డబ్బు చెల్లించవద్దు.",
+      "hi-IN": "स्पष्ट समस्या हल करने वाले छोटे प्रोजेक्ट से शुरू करें और अपने योगदान का दस्तावेज बनाएं। इंटर्नशिप या शोध के लिए फैकल्टी, सत्यापित कंपनी या लैब पेज और केंद्रित रिज्यूमे का उपयोग करें। असत्यापित भर्ती के लिए पैसे न दें।",
+      "tenglish": "Clear problem solve chese small project tho start cheyyandi. Code/demo ni responsibly document cheyyandi. Internships or research kosam faculty guidance, verified company/lab pages and focused resume use cheyyandi. Unverified recruiter ki money pay cheyyakandi."
+    }
+  },
+  {
+    "id": "programming_skills",
+    "source_type": "general_engineering_guidance",
+    "terms": ["programming", "coding", "java", "python", "c++", "javascript", "technical skills", "learn", "how to code", "కోడింగ్", "ప్రోగ్రామింగ్", "प्रोग्रामिंग"],
+    "responses": {
+      "en-IN": "Choose one language first, learn variables, functions, data structures, and debugging, then solve small problems every day. Build one project related to your interests, read other people's code, and use documentation instead of memorising everything.",
+      "te-IN": "ముందుగా ఒక ప్రోగ్రామింగ్ భాషను ఎంచుకుని వేరియబుల్స్, ఫంక్షన్స్, డేటా స్ట్రక్చర్స్ మరియు డీబగ్గింగ్ నేర్చుకోండి. ప్రతిరోజూ చిన్న సమస్యలు పరిష్కరించి, మీ ఆసక్తికి సంబంధించిన ఒక ప్రాజెక్ట్ నిర్మించండి.",
+      "hi-IN": "पहले एक प्रोग्रामिंग भाषा चुनें और वेरिएबल, फंक्शन, डेटा स्ट्रक्चर व डिबगिंग सीखें। रोज छोटे सवाल हल करें और अपनी रुचि से जुड़ा एक प्रोजेक्ट बनाएं।",
+      "tenglish": "First oka language choose cheskoni variables, functions, data structures and debugging nerchukondi. Daily small problems solve chesi, interest ki related project build cheyyandi."
+    }
+  },
+  {
+    "id": "faculty_advising",
+    "source_type": "typical_college_guidance",
+    "terms": ["faculty", "teacher", "professor", "advisor", "mentor", "academic guidance", "doubt", "ఫ్యాకల్టీ", "अध्यापक"],
+    "responses": {
+      "en-IN": "Prepare a concise question, share the relevant course or work, and meet the faculty member during their announced hours. For academic advising, keep your marks, attendance, and pending work ready. Contact the department office if you do not know the correct advisor.",
+      "te-IN": "సంక్షిప్తమైన ప్రశ్నను సిద్ధం చేసి, సంబంధిత కోర్సు లేదా పనిని చూపిస్తూ ఫ్యాకల్టీని వారి ప్రకటించిన సమయంలో కలవండి. అకడమిక్ అడ్వైజింగ్ కోసం మార్కులు, హాజరు మరియు పెండింగ్ పనుల వివరాలు సిద్ధంగా ఉంచండి.",
+      "hi-IN": "संक्षिप्त प्रश्न तैयार करें और घोषित समय में फैकल्टी से मिलें। अकादमिक सलाह के लिए अंक, उपस्थिति और लंबित काम की जानकारी साथ रखें। सही सलाहकार न पता हो तो विभाग कार्यालय से पूछें।",
+      "tenglish": "Short question prepare chesi, relevant course/work details tho faculty ni announced hours lo meet avvandi. Academic advising kosam marks, attendance and pending work details ready ga pettukondi."
+    }
+  },
+  {
+    "id": "facilities",
+    "source_type": "institution_specific_referral",
+    "terms": ["library", "lab", "laboratory", "hostel", "transport", "bus", "wifi", "internet", "infrastructure", "classroom", "facility", "లైబ్రరీ", "హాస్టల్", "బస్", "वाईफाई"],
+    "responses": {
+      "en-IN": "Libraries, labs, hostels, transport, Wi-Fi, and infrastructure vary by campus. Check the official facility notice or contact the library, lab in-charge, hostel office, transport office, or IT help desk. Current timings, routes, fees, and availability cannot be assumed.",
+      "te-IN": "లైబ్రరీ, ల్యాబ్స్, హాస్టల్, ట్రాన్స్‌పోర్ట్, Wi-Fi మరియు మౌలిక సదుపాయాలు క్యాంపస్‌ను బట్టి మారుతాయి. సంబంధిత అధికారిక నోటీసు లేదా లైబ్రరీ, ల్యాబ్ ఇన్‌చార్జ్, హాస్టల్, ట్రాన్స్‌పోర్ట్ లేదా IT డెస్క్‌ను సంప్రదించండి.",
+      "hi-IN": "पुस्तकालय, लैब, हॉस्टल, परिवहन, Wi-Fi और सुविधाएं कैंपस के अनुसार बदलती हैं। संबंधित आधिकारिक सूचना या पुस्तकालय, लैब प्रभारी, हॉस्टल, परिवहन या IT डेस्क से संपर्क करें।",
+      "tenglish": "Library, labs, hostel, transport, Wi-Fi and infrastructure campus batti vary avtayi. Official notice or relevant office/help desk tho current timings, routes, fees and availability confirm cheyyandi."
+    }
+  },
+  {
+    "id": "clubs_events",
+    "source_type": "typical_college_guidance",
+    "terms": ["club", "clubs", "hackathon", "competition", "workshop", "technical event", "cultural", "coding contest", "ఫెస్ట్", "క్లబ్", "हैकाथॉन", "क्लब"],
+    "responses": {
+      "en-IN": "Look for announcements from student clubs, the training or innovation cell, and department notice boards. Start by joining one technical or cultural activity, attend an orientation, and contribute to a small event or team. The actual clubs and event calendar need confirmation from the college.",
+      "te-IN": "స్టూడెంట్ క్లబ్‌లు, ట్రైనింగ్ లేదా ఇన్నోవేషన్ సెల్ మరియు డిపార్ట్‌మెంట్ నోటీస్ బోర్డుల ప్రకటనలను చూడండి. ఒక టెక్నికల్ లేదా కల్చరల్ యాక్టివిటీలో చేరి, ఓరియంటేషన్‌కు హాజరై చిన్న ఈవెంట్‌లో పాల్గొనండి. అసలు క్లబ్‌లు మరియు క్యాలెండర్‌ను కళాశాల వద్ద నిర్ధారించండి.",
+      "hi-IN": "छात्र क्लब, ट्रेनिंग या इनोवेशन सेल और विभाग के नोटिस देखें। एक तकनीकी या सांस्कृतिक गतिविधि से जुड़ें, ओरिएंटेशन में जाएं और छोटे कार्यक्रम में योगदान दें। वास्तविक क्लब और कैलेंडर कॉलेज से पुष्टि करें।",
+      "tenglish": "Student clubs, training/innovation cell and department notice boards announcements follow cheyyandi. Oka technical or cultural activity join ayi orientation attend chesi small event lo contribute cheyyandi. Actual clubs and calendar college daggara confirm cheyyandi."
+    }
+  },
+  {
+    "id": "sports_student_life",
+    "source_type": "general_engineering_guidance",
+    "terms": ["sports", "extracurricular", "student life", "activities", "wellbeing", "friends", "time management", "ఆటలు", "విద్యార్థి జీవితం", "खेल"],
+    "responses": {
+      "en-IN": "Balance classes, rest, and activities with a weekly schedule. Choose one activity that supports your health or interests, communicate early when academics conflict, and use student-support services if stress or personal difficulties affect your studies.",
+      "te-IN": "వారపు షెడ్యూల్‌తో క్లాసులు, విశ్రాంతి మరియు యాక్టివిటీలను సమతుల్యం చేయండి. ఆరోగ్యం లేదా ఆసక్తికి ఉపయోగపడే ఒక యాక్టివిటీ ఎంచుకోండి. ఒత్తిడి చదువుపై ప్రభావం చూపితే స్టూడెంట్ సపోర్ట్ సేవలను ఉపయోగించండి.",
+      "hi-IN": "साप्ताहिक योजना से पढ़ाई, आराम और गतिविधियों में संतुलन रखें। स्वास्थ्य या रुचि से जुड़ी एक गतिविधि चुनें। तनाव पढ़ाई को प्रभावित करे तो छात्र सहायता सेवाओं से संपर्क करें।",
+      "tenglish": "Weekly schedule tho classes, rest and activities balance cheyyandi. Health or interest ki useful oka activity choose cheskondi. Stress studies ni affect chesthe student support services use cheyyandi."
+    }
+  },
+  {
+    "id": "support_rules",
+    "source_type": "institution_specific_referral",
+    "terms": ["grievance", "complaint", "support", "discipline", "rules", "ragging", "harassment", "issue", "problem", "సమస్య", "ఫిర్యాదు", "शिकायत", "नियम"],
+    "responses": {
+      "en-IN": "For a grievance, keep a factual record, use the official student-support or grievance channel, and escalate to the department or designated committee if needed. Follow campus safety and anti-ragging rules. If there is immediate danger, contact local emergency services or campus security.",
+      "te-IN": "ఫిర్యాదు కోసం వాస్తవ వివరాలను నమోదు చేసి, అధికారిక స్టూడెంట్ సపోర్ట్ లేదా గ్రీవెన్స్ ఛానల్‌ను ఉపయోగించండి. అవసరమైతే డిపార్ట్‌మెంట్ లేదా నియమిత కమిటీకి ఎస్కలేట్ చేయండి. తక్షణ ప్రమాదం ఉంటే క్యాంపస్ సెక్యూరిటీ లేదా స్థానిక అత్యవసర సేవలను సంప్రదించండి.",
+      "hi-IN": "शिकायत के लिए तथ्य लिखकर आधिकारिक छात्र सहायता या शिकायत चैनल का उपयोग करें और जरूरत पर विभाग या समिति तक जाएं। कैंपस सुरक्षा और एंटी-रैगिंग नियमों का पालन करें। तत्काल खतरे में सुरक्षा या आपात सेवा से संपर्क करें।",
+      "tenglish": "Grievance kosam factual record maintain chesi official student support/grievance channel use cheyyandi. Need aithe department or designated committee ki escalate cheyyandi. Immediate danger unte campus security or emergency services contact cheyyandi."
+    }
+  },
+  {
+    "id": "higher_education",
+    "source_type": "general_engineering_guidance",
+    "terms": ["gate", "higher studies", "masters", "mtech", "ms", "mba", "competitive exam", "government exam", "gre", "ies", "పోటీ పరీక్ష", "ఉన్నత విద్య", "उच्च शिक्षा"],
+    "responses": {
+      "en-IN": "Choose higher education or a competitive exam after comparing your interests, prerequisites, syllabus, cost, and timeline. For GATE, begin with the official syllabus, strengthen core subjects, solve previous papers, and take timed mocks. Verify current eligibility and dates on the exam authority website.",
+      "te-IN": "మీ ఆసక్తి, అవసరమైన అర్హతలు, సిలబస్, ఖర్చు మరియు సమయాన్ని పోల్చి ఉన్నత విద్య లేదా పోటీ పరీక్షను ఎంచుకోండి. GATE కోసం అధికారిక సిలబస్‌తో ప్రారంభించి కోర్ సబ్జెక్టులు, గత ప్రశ్నపత్రాలు మరియు మాక్ టెస్టులు ప్రాక్టీస్ చేయండి. ప్రస్తుత తేదీలు అధికారిక వెబ్‌సైట్‌లో చూడండి.",
+      "hi-IN": "रुचि, योग्यता, पाठ्यक्रम, खर्च और समय देखकर उच्च शिक्षा या प्रतियोगी परीक्षा चुनें। GATE के लिए आधिकारिक पाठ्यक्रम, मूल विषय, पिछले प्रश्नपत्र और समयबद्ध मॉक टेस्ट पर काम करें। तारीख और पात्रता आधिकारिक वेबसाइट पर देखें।",
+      "tenglish": "Interests, prerequisites, syllabus, cost and timeline compare chesi higher studies or competitive exam choose cheyyandi. GATE kosam official syllabus, core subjects, previous papers and timed mocks practice cheyyandi. Current dates official website lo verify cheyyandi."
+    }
+  }
+]

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#F8EAF0">
+    <title>CampusVoice AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<main class="app">
+    <header class="topbar">
+        <button class="round-button mobile-only" id="homeMenu" aria-label="Open menu"><i class="fa-solid fa-bars"></i></button>
+        <button class="brand" data-view="home" aria-label="CampusVoice AI home">
+            <span class="brand-mark"><i class="fa-solid fa-sparkles"></i></span>
+            <span><strong>CampusVoice <b>AI</b></strong><small>Your campus companion</small></span>
+        </button>
+        <div class="top-actions">
+            <button class="round-button" aria-label="Notifications"><i class="fa-regular fa-bell"></i><i class="notification-dot"></i></button>
+            <span class="student-avatar">S</span>
+        </div>
+    </header>
+
+    <section class="view active" id="homeView" aria-label="Home dashboard">
+        <div class="home-heading">
+            <div><p class="kicker">GOOD MORNING, STUDENT</p><h1>How can I help<br><em>you today?</em></h1></div>
+            <div class="welcome-orb" aria-hidden="true"><i class="fa-solid fa-sparkles"></i></div>
+        </div>
+        <div class="primary-actions">
+            <button class="primary-card smart-card" data-view="chat"><span class="card-icon"><i class="fa-solid fa-message"></i></span><strong>Smart Chat</strong><small>Ask anything about your college</small><i class="fa-solid fa-arrow-up-right-from-square card-link"></i></button>
+            <button class="primary-card voice-card" data-view="voice"><span class="card-icon"><i class="fa-solid fa-microphone"></i></span><strong>Voice Chat</strong><small>Speak naturally with your assistant</small><i class="fa-solid fa-arrow-up-right-from-square card-link"></i></button>
+        </div>
+        <div class="section-title"><h2>Recent conversations</h2><button id="clearHistory" class="text-button">Clear all</button></div>
+        <div class="recent-list" id="recentList">
+            <button class="recent-item" data-question="What courses are available?"><span class="recent-icon"><i class="fa-regular fa-comment"></i></span><span><strong>Courses and departments</strong><small>What courses are available?</small></span><i class="fa-solid fa-chevron-right"></i></button>
+            <button class="recent-item" data-question="Where can I find exam notifications?"><span class="recent-icon"><i class="fa-regular fa-calendar"></i></span><span><strong>Exam notifications</strong><small>Where can I find exam notifications?</small></span><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+        <div class="section-title features-title"><h2>Campus information</h2><span class="section-count">4 topics</span></div>
+        <div class="feature-grid">
+            <button class="feature-card" data-question="Tell me about campus facilities."><span class="feature-icon lavender"><i class="fa-solid fa-building-columns"></i></span><strong>Campus Information</strong><small>Facilities and services</small></button>
+            <button class="feature-card" data-question="What courses are available?"><span class="feature-icon pink"><i class="fa-solid fa-book-open"></i></span><strong>Academics</strong><small>Courses and departments</small></button>
+            <button class="feature-card" data-question="Where can I find exam notifications?"><span class="feature-icon purple"><i class="fa-solid fa-calendar-check"></i></span><strong>Examination Updates</strong><small>Notices and timetables</small></button>
+            <button class="feature-card" data-question="How can I contact the college?"><span class="feature-icon peach"><i class="fa-solid fa-hand-holding-heart"></i></span><strong>Student Support</strong><small>Help when you need it</small></button>
+        </div>
+        <div class="language-settings" id="languageSettings">
+            <div><span class="settings-icon"><i class="fa-solid fa-language"></i></span><span><strong>Language preferences</strong><small>Choose how you speak and receive replies</small></span></div>
+            <label>I speak<select id="inputLanguage"><option value="auto">Auto Detect</option><option value="te-IN">Telugu</option><option value="en-IN">English</option><option value="hi-IN">Hindi</option><option value="tenglish">Tenglish</option></select></label>
+            <label>Response language<select id="outputLanguage"><option value="same">Same as input</option><option value="te-IN">Telugu</option><option value="en-IN">English</option><option value="hi-IN">Hindi</option><option value="tenglish">Tenglish</option></select></label>
+        </div>
+    </section>
+
+    <section class="view chat-view" id="chatView" aria-label="Smart Chat">
+        <div class="screen-header"><button class="back-button" data-view="home" aria-label="Back"><i class="fa-solid fa-arrow-left"></i></button><div><p class="kicker">CAMPUSVOICE AI</p><h2>Smart Chat</h2></div><button class="voice-shortcut" data-view="voice" aria-label="Open voice assistant"><i class="fa-solid fa-microphone"></i></button></div>
+        <div class="chat-language-bar"><span><i class="fa-solid fa-language"></i> <b id="chatLanguageSummary">Auto Detect → Same as input</b></span><button data-view="home">Change</button></div>
+        <div class="conversation" id="conversation" aria-live="polite">
+            <div class="message assistant-message"><div class="message-avatar"><i class="fa-solid fa-sparkles"></i></div><div class="message-bubble"><span class="message-label">CampusVoice AI <b>·</b> Just now</span><p>Hello! Welcome to CampusVoice AI. What would you like to know about your college?</p></div></div>
+        </div>
+        <div class="suggestions" id="suggestions"><span>Try asking</span><button data-question="What courses are available?">What courses are available?</button><button data-question="Where can I find exam notifications?">Exam notifications</button><button data-question="Tell me about campus facilities.">Campus facilities</button></div>
+        <div class="composer"><textarea id="messageInput" rows="1" placeholder="Ask anything about your campus..." aria-label="Your question"></textarea><div class="composer-bottom"><button class="composer-hint" id="languagePrompt" type="button"><i class="fa-solid fa-wand-magic-sparkles"></i> Ask in your language</button><div class="composer-actions"><span id="recordStatus">Ready</span><button id="recordBtn" class="mic-button" aria-label="Start voice recording"><i class="fa-solid fa-microphone"></i></button><button id="sendBtn" class="send-button" aria-label="Send message"><i class="fa-solid fa-arrow-up"></i></button></div></div><div class="language-panel" id="languagePanel" hidden><label for="quickInputLanguage">Input language</label><select id="quickInputLanguage"><option value="auto">Auto Detect</option><option value="te-IN">Telugu (te-IN)</option><option value="en-IN">English (en-IN)</option><option value="hi-IN">Hindi (hi-IN)</option><option value="tenglish">Tenglish (code-mix)</option></select><span id="selectedInputLanguage"></span></div></div>
+    </section>
+
+    <section class="view voice-view" id="voiceView" aria-label="Voice Assistant">
+        <div class="screen-header"><button class="back-button" data-view="home" aria-label="Back"><i class="fa-solid fa-arrow-left"></i></button><div><p class="kicker">CAMPUSVOICE AI</p><h2>Speaking to CampusVoice AI</h2></div><span class="voice-status-chip" id="voiceStateChip">Ready</span></div>
+        <div class="voice-content"><p class="selected-voice-language" id="selectedVoiceLanguage"></p><p class="listening-status" id="voiceStatus">Tap the microphone to start</p><div class="voice-orb" id="voiceOrb"><div class="voice-orbit one"></div><div class="voice-orbit two"></div><div class="voice-core"><i class="fa-solid fa-sparkles"></i></div></div><p class="recognized-label">Recognized question</p><div class="recognized-text" id="recognizedText">Your question will appear here</div><div class="voice-actions"><button class="cancel-button" id="cancelVoice" aria-label="Cancel recording"><i class="fa-solid fa-xmark"></i></button><button class="voice-mic" id="voiceMic" aria-label="Start voice recording"><i class="fa-solid fa-microphone"></i></button><button class="cancel-button" id="replayVoice" aria-label="Replay answer" disabled><i class="fa-solid fa-volume-high"></i></button></div><button class="retry-button" id="confirmVoice" type="button" disabled>Ask CampusVoice AI</button><button class="retry-button" id="retryVoice" type="button">Retry recording</button><p class="voice-error" id="voiceError" role="alert"></p></div>
+    </section>
+
+    <nav class="bottom-nav" aria-label="App navigation"><button class="nav-button active" data-view="home"><i class="fa-solid fa-house"></i><span>Home</span></button><button class="nav-button" data-view="chat"><i class="fa-regular fa-message"></i><span>Smart Chat</span></button><button class="nav-button" data-view="voice"><i class="fa-solid fa-microphone"></i><span>Voice Chat</span></button><button class="nav-button" data-view="home"><i class="fa-regular fa-circle-question"></i><span>Support</span></button></nav>
+</main>
+<script src="/static/script.js"></script>
+</body>
+</html>
